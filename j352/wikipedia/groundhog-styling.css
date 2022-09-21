@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: 700;
+    background-color: rgb(194, 212, 252);
+    padding: 20px;
+    font-size: 3em;
+}
+
+#wiki-link {
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 0, 106);
+}
+
+h2{
+    font-family: 'Aref Ruqaa Ink', serif
+}
+
+.bordered-images {
+    border: 1px solid;
+    border-color: black;
+    padding: 6px;
+}
+
+p{
+    font-family: 'Tiro Telugu', serif;
+}
+
+#tounge-twister {
+    font-style: italic;
+    color: rgb(69, 38, 0);
+}
