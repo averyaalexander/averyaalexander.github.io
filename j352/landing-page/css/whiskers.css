@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 243, 226);
+    font-family: 'Nanum Myeongjo', serif;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    color: rgb(93, 93, 93);
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+ 
+    
+}
+
+#blurb{
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+.tabs {
+   position:relative;
+   background-color: rgb(151, 132, 100);
+   color: blanchedalmond;
+   width: 8em;
+   float: left; 
+   margin-bottom: 0;   
+}
+
+.footer{
+    color: rgba(249, 238, 228, 0.754);
+    background-color: rgb(152, 152, 152);
+    text-align: center;
+    border-color: rgb(152, 152, 152);
+}
+
+@media (max-width:700px) {
+ 
+    .tabs{
+        text-align: center;
+        width:100%;
+        height:6em;
+        margin-top: 1em;
+    }
+    .extra-img{
+        width: 18em;
+        margin: 1em 1em;
+        align-items: center;
+    }
+    
+ }
+
+
+    
+
+
