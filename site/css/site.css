@@ -55,3 +55,18 @@ footer {
     margin-bottom: 5em;
 }
 
+.work-experience {
+    background-color: #DDBD77 ;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 20px;
+}
+
+h3 {
+    font-family:'DM Serif Text', serif; ;
+    color: rgb(100, 100, 100);
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
