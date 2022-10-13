@@ -1,0 +1,57 @@
+body {
+    background-color:#FFFAF5 ;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
+h1 {
+    background-color: #B2DB99;
+    text-align: center;
+    font-size: 4em;
+    font-family:'DM Serif Text', serif;
+    ;
+    padding: .5em;
+    /*
+    padding: 1em 0em 1em 0em;
+    margin: 0em 3em 0em 3em;*/
+}
+.page-links {
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+.blurb {
+    font-size: 1.75em;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+.logos {
+    height: 2em;
+    margin-right: 10px;
+    padding-right: 0;
+}
+
+.tags {
+    text-align: center;
+}
+
+footer {
+    border-width: 1px;
+    border-style: ridge;
+    border-color: rgb(71, 71, 71);
+
+
+}
+
+.container { 
+    margin-bottom: 5em;
+}
+
