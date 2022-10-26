@@ -120,7 +120,7 @@ p {
 }
 
 h5 {
-    font-family:'DM Serif Text', serif; ;
+    font-family:'DM Serif Text', serif; 
 }
 
 .education {
@@ -145,6 +145,15 @@ h5 {
     }
 
 }
+
+dt{
+    font-family:'Yeseva One', cursiv ;
+}
+
+dd{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /*clips*/
 .clips{
     text-align: center;
