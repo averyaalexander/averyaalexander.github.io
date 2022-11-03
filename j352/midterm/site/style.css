@@ -1,0 +1,175 @@
+/*full page*/
+body {
+    background-color: #F4F5F8;
+    color: #152128;
+}
+
+
+
+/*header*/
+
+nav {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: .5em;
+}
+
+header {
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.thin-header {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#big-header {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    display: block;
+}
+
+#last-h1 {
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+#byline {
+    font-size: .9em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.spotify {
+    color: #1DB954;
+}
+
+/*body*/
+
+.text-block {
+    padding: 0 20em;
+    font-family: 'Literata', serif;
+    font-size: 15px;
+    color: #152128;
+}
+
+.graphic-title {
+    font-size: 1.5em;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: .9em;
+    margin-bottom: 1.5em;
+    font-weight: 300;
+}
+
+.graphics {
+    background-color: #EAEAEA;
+    width: 100%;
+    padding: 2em 13em;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.charts {
+    padding: 3em 0;
+    margin: 2em 0;
+    border-bottom: #9DB4AB dashed;
+}
+
+/*footer*/
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+a {
+    color: #152128;
+}
+
+
+/*media queries*/
+
+/*tablet*/
+
+@media (max-width:769px) {
+    .text-block {
+        padding: 0 10em
+    }
+
+    .graphics {
+        padding: 1em 2em;
+    }
+
+    .graphics img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: .75em;
+    }
+
+    #by-line {
+        font-size: .7em;
+    }
+}
+
+/*mobile*/
+
+@media (max-width:414px) {
+    .text-block {
+        padding: 0 4em;
+
+    }
+
+    .graphics {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .charts {
+        font-size: 1em;
+    }
+
+    #top-h1 {
+        margin-top: 2em;
+    }
+
+    header {
+        margin-bottom: 1em;
+    }
+
+    h2 {
+        font-size: .65em;
+    }
+
+    #by-line {
+        font-size: .60em;
+    }
+
+}
