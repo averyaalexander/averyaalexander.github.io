@@ -1,0 +1,56 @@
+/*full page*/
+body{
+    background-color:#fffbe9;
+}
+
+p{
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
+.container{
+  padding-left: 7em;
+  padding-right: 7em;
+    
+}
+/*heading*/
+h1{
+    text-align: center;
+    font-family:'Staatliches', cursive; 
+    font-size: 4em;
+    letter-spacing: 3px;
+   /* background-color:#892d2d ;*/
+    margin-top: .5em; 
+    color: #892d2d;
+}
+h2{
+    text-align: center;
+    font-family:'Staatliches', cursive; 
+    font-size: 3em;
+    letter-spacing: 3px; 
+    color: #892d2d;
+    margin-bottom: 1em;
+}
+
+h3{
+    font-family:'Staatliches', cursive; 
+    color: #892d2d;
+    margin-top: 1.5em;
+}
+
+#ye-image{
+    margin-bottom: 2em;
+}
+
+/*controversies*/
+
+#after-timeline{
+    float: right;
+    padding-left: 10px;
+   
+}
+#timeline{
+   height: 35em;
+   float: left;
+}
+
+
