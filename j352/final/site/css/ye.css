@@ -48,8 +48,11 @@ h3{
     
 }
 
-#ye-image{
+#photo-caption{
     margin-bottom: 2em;
+    font-size: 1em;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
