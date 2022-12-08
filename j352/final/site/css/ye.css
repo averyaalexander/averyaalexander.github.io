@@ -1,23 +1,22 @@
 /*full page*/
 body{
-    background-color:#fffbe9;
+    background-color:#fffce9;
 }
 
 p{
-    font-family: 'Cormorant', serif;
-    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
 }
 .container{
-  padding-left: 7em;
-  padding-right: 7em;
-    
+ width: 75%;
 }
 /*heading*/
+
 h1{
     text-align: center;
     font-family:'Staatliches', cursive; 
-    font-size: 4em;
-    letter-spacing: 3px;
+    font-size: 5em;
+    letter-spacing: 2px;
    /* background-color:#892d2d ;*/
     margin-top: .5em; 
     color: #892d2d;
@@ -31,14 +30,32 @@ h2{
     margin-bottom: 1em;
 }
 
+hr{
+    color: #7e2727;
+    position: relative;
+    border: none;
+    top: 10px;
+    height: 7px;
+    background:#892d2d;
+    margin-bottom: 50px;
+}
+
 h3{
     font-family:'Staatliches', cursive; 
     color: #892d2d;
     margin-top: 1.5em;
+    font-size: 2.5em;
+    
 }
 
 #ye-image{
     margin-bottom: 2em;
+}
+
+
+/*intro*/
+#video{
+    padding-bottom: 1em;
 }
 
 /*controversies*/
@@ -49,8 +66,106 @@ h3{
    
 }
 #timeline{
-   height: 35em;
+   height: 40em;
    float: left;
 }
+
+#spotifyLink{
+    margin-bottom: 1em;
+}
+
+/*2022*/
+#datawrapper-chart-1xOEh{
+    padding-bottom: 1em;
+}
+ #lastp{
+    margin-bottom: 5em;
+ }
+
+ /*footer*/
+ #footer{
+    font-size: .75em;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /*media queries*/
+
+ @media (max-width:415px){
+    h1{
+        font-size: 3em;
+        align-items: center;
+        letter-spacing: normal;
+    }
+    h2{
+        font-size: 1em;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    p{
+        font-size: .75em;
+    }
+    #video{
+        width: 80%;
+        height: 80%;
+        align-items: center;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    #timeline{
+        width: 90%;
+        height:90%;
+    }
+ }
+
+ @media (min-width:1200px){
+    #ye-image{
+        height:40em;
+        margin-left: 6em;
+    }
+    h1{
+        font-size: 9em;
+    }
+    h2{
+        font-size: 3.5em;
+    }
+    p{
+        font-size: 1.25em;
+    }
+   #video{
+        float: left;
+        margin-right: 3em;
+        width: 65%;
+    }
+    #firsthead{
+        margin-top:3em
+    }
+
+ }
+
+ @media (max-width:1023px){
+    #timeline{
+       float:none;
+       align-items: center;
+    }
+ }
+
+ @media (min-width:1400px){
+    #ye-image{
+        margin-left: 7em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    #video{
+        width: 60%;
+    }
+    #timeline{
+        width: 45%;
+        height: 45%
+    }
+    
+ }
+
 
 
