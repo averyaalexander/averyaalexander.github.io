@@ -1,0 +1,193 @@
+body {
+    background-color:#ebe7e1c1;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+h4{
+    margin-top: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.references{
+    font-size: .75em;
+}
+
+.namemention{
+    color:#c766d2;
+    text-decoration: none;
+}
+/*PAGE 1*/
+
+/*Title (title page)*/
+#pagetitle1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 4em;
+    margin-left: 50px;
+
+}
+#pagetitle2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c766d2;
+}
+
+#bodymain{
+    padding-top: 2em;
+}
+
+#introduction{
+    text-align:  center;
+    font-family:'Roboto', sans-serif;
+}
+
+#homeline{
+    padding-bottom: 1.5em;  
+    margin-right: 10em;
+    margin-left:10em;
+}
+
+.container{
+    padding-left: 3.5em;
+    padding-right:3.5em;
+}
+
+/*tabs*/
+.tabs{
+    text-align: right;
+    margin-right: 0px;
+    background-color:#e1c5e4 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin-top: 60px;
+    font-weight: 300;
+    font-size: 1em;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#53003e; 
+    cursor:pointer;  
+    text-decoration: underline;
+}
+
+/*mags page*/
+
+#magstitle1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2.75em;
+}
+
+#magstitle2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.65em;
+    color: #c766d2;
+    
+}
+
+.magheaders{
+    font-family: 'Bodoni Moda', serif; 
+    margin-top: 1.5em;
+    font-size: 2em;
+}
+
+#fashionplate {
+    width: 400px;
+    float: right;
+    margin-left: 1.5em;
+}
+
+#godeycover{
+    width: 275px;
+    float: left;
+    margin-right: 1.5em;
+}
+
+#harpercover{
+    width: 325px;
+    float: left;
+    margin-right: 1.5em;  
+}
+
+#ringwoodcover{
+    width: 325px;
+    float: left;
+    margin-right: 1.5em;  
+}
+/*change page*/
+#changetitle1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 3.5em;
+
+}
+
+#changetitle2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: #c766d2;
+}
+
+/*editors pages*/
+
+#quote{
+    text-align: center;
+    font-style: italic;
+    color: #c766d2;
+    margin: 2em;
+   
+}
+
+.commontabs{
+    background-color:#e1c5e4 ;
+    text-align: center;
+    align-items: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 1.2em;
+    padding-top:1em;
+    padding-bottom: 1em ;
+    margin-bottom: 2em;
+    margin-right: 15em;
+    margin-left: 15em;
+
+}
+
+#hale{
+    width: 500px;
+    float: right;
+    margin-left: 1.5em; 
+}
+
+#booth{
+    width: 400px;
+    float: right;
+    margin-left: 1.5em; 
+}
+
+#ringwood{
+    width:400px;
+    float: right;
+    margin-left: 1.5em; 
+}
+
+/*Change*/ 
+
+
+
+
+
+
+
+
